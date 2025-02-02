@@ -48,12 +48,16 @@ body {
 
 p {
     font-family: InriaRegular;
-    font-size: 1.2em;
+    font-size: 1.6vw;
+}
+
+a {
+    color: black;
 }
 
 h3 {
     font-family: LuckiestGuy;
-    font-size: 3.5em;
+    font-size: 4vw;
 }
 
 /* nav */
@@ -129,11 +133,11 @@ main section:nth-of-type(2) {
 main section:nth-of-type(2) p {
     background-color: var(--accent-color2);
     color: var(--background-color);
-    padding: 2vw;
+    padding: 1vw;
     margin-right: 3vw;
-    font-size: 2em;
+    font-size: 2.3vw;
     padding: 3vw;
-    padding-left: 24vw;
+    padding-left: 24%;
     text-align: right;
     border-radius: 0% 20px 20px 0%;
 }
@@ -149,21 +153,39 @@ main section:nth-of-type(3) {
     background-color: var(--accent-color1);
     margin: 2.5vw;
     margin-top: 16vw;
-    padding: 2vw;
+    padding: 1.5vw 2.5vw;
     position: relative;
+    border-radius: 1vw;
 }
+
+main section:nth-of-type(3) h3 {
+    position: absolute;
+    margin-left: 33vw;
+    margin-top: 2vw;
+}
+
 
 main section:nth-of-type(3) p {
     position: absolute;
+    margin-left: 33vw;
+    margin-right: 6vw;
 }
 
-main section:nth-of-type(3) p:first-of-type {
-    margin-left: 32vw;
+main section:nth-of-type(3) a p:first-of-type{ 
+    margin-top: 37vw;
+    margin-left: 55vw;
+}
+
+main section:nth-of-type(3) a p{
+    text-decoration: underline;
+}
+
+main section:nth-of-type(3) p:nth-of-type(1) {
+    margin-top: 8vw;
 }
 
 main section:nth-of-type(3) p:nth-of-type(2) {
-    margin-left: 32vw;
-    margin-top: 20vw;
+    margin-top: 22vw;
 }
 
 main section:nth-of-type(3) p:nth-of-type(3) {
@@ -171,13 +193,22 @@ main section:nth-of-type(3) p:nth-of-type(3) {
 }
 
 main section:nth-of-type(3) img {
-    max-height: 90vh;
+    height: auto;
+    width: 31vw;
 }
 
 main section:nth-of-type(3) img:nth-of-type(2), main section:nth-of-type(3) img:nth-of-type(3) {
-    height: 20vh;
+    height: auto;
+    width: 14vw;
+    margin-left: 0.5vw;
+}
+
+main section:nth-of-type(3) img:nth-of-type(2) {
+    margin-left: 6vw;
 }
 
 main section:nth-of-type(3) img:nth-of-type(4) {
-    height: 30vh;
+    height: auto;
+    width: 22vw;
+    margin-left: 0.5vw;
 }
