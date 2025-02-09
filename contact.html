@@ -3,15 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact</title>
     <link href="styles/style.css" rel="stylesheet">
 </head>
-<body>
+<body class="contact">
     <nav>
         <a href="index.html"><p>Portfolio</p></a>
         <a href="cv.html"><p>CV</p></a>
         <a href="contact.html"><p>Contact</p></a>
     </nav>
+
+    <main>
+        <h1>Contact me!</h1>
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="eda88f88-60d5-4b27-97fa-c43993aff5f0">
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="email" name="email" placeholder="E-mail" required>
+            <input type="message" name="message" placeholder="Message" required>
+            <button type="submit"><p>Submit</p><img src="images/arrow.png" alt="an arrow"></button>
+        </form>
+    </main>
 
 </body>
 </html>
